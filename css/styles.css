@@ -1,0 +1,74 @@
+.principal-header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.header-left img {
+    height: 40px;
+}
+
+.header-rigth ul {
+    display: flex;
+    gap: 55px;
+}
+
+.header-rigth ul a {
+    display: inline-block;
+    padding: 2px 4px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    font-weight: bold;
+}
+
+.header-rigth ul a:hover {
+    border-bottom: 2px solid #000;
+}
+
+.intro {
+    height: 600px;
+    background-image: url("../images/intro-fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-article {
+    width: 50%;
+    color: #fff;
+}
+
+.intro-article h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.intro-article p {
+    margin: 25px 0;
+    text-wrap: balance;
+    text-align: center;
+}
+
+.intro-buttonCage {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-article button {
+    font-size: 0.9rem;
+    background: #fff ;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 5px;
+    transition: color 0.2s ease, background 0.2s ease;
+    cursor: pointer;
+}
+
+.intro-article button:hover {
+    color: #fff;
+    background: #343434;
+}
