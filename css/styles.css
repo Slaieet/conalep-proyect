@@ -6,8 +6,9 @@
     padding: 0px 100px;
 }
 
-.header-left img {
-    height: 40px;
+.header-left h1 {
+    font-size: 1.3rem;
+    font-style: italic;
 }
 
 .header-rigth ul {
@@ -28,7 +29,8 @@
 }
 
 .intro {
-    height: 600px;
+    height: 100vh;
+    min-height: 500px;
     background-image: url("../images/intro-fondo.jpg");
     background-size: cover;
     background-position: center;
@@ -71,4 +73,42 @@
 .intro-article button:hover {
     color: #fff;
     background: #343434;
+}
+
+.cards {
+    margin: 80px 0;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+}
+
+.cards-cage {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.oneCard {
+    flex-basis: 250px;
+}
+
+.oneCard h6 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.oneCard p {
+    text-align: center;
+    font-size: 1rem;
+    opacity: 90%;
+}
+
+.oneCard img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
 }
