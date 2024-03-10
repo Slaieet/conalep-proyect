@@ -153,6 +153,39 @@
 }
 
 .info-rigth .buttonSpecial:hover {
-    background: #fff;
+    background: #eee;
     color: #343434;
+}
+
+.principal-footer {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.principal-footer p {
+    font-size: 0.9rem;
+    opacity: 80%;
+}
+
+.principal-footer section {
+    display: flex;
+    gap: 15px;
+}
+
+.principal-footer section a {
+    display: inline-block;
+    padding: 3px;
+    transition: transform 0.2s;
+}
+
+.principal-footer section a:hover {
+    transform: scale(1.15);
+}
+
+.principal-footer section svg {
+    height: 20px;
+    width: 20px;
 }
